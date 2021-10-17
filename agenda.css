@@ -1,0 +1,68 @@
+body{
+    background-image:  url("image/coucher-de-soleil.jpg");
+    background-size: 35%;
+    background-position:50px 400px;
+
+
+}
+.agenda{
+
+    margin:auto;
+    max-width:800px ;
+    font-family: serif;
+    font-weight: bold;
+    color:black;
+
+}
+
+.month{                 /*les mois*/
+    text-align: center;
+    background:black;
+    font-size: 80px;
+    letter-spacing: 1px;
+    color:black;
+    border:2px double black ;
+
+}
+
+table, th, td{
+    width:100%;
+    table-layout:fixed;
+    text-align: center;
+    font-size: 27px;
+    border-collapse: collapse;
+    border:3px solid black;
+    font-family: 'Scheherazade New', serif;
+
+}
+
+tr, th, td{
+
+    padding:15px;
+
+}
+
+th{
+    background: lightsalmon;
+    font-family: 'Oswald', sans-serif;
+}
+
+th:hover{
+    background: gray;
+    
+}
+
+td{
+
+    background:olive;
+
+}
+
+td:hover{
+    background: gray;
+}
+
+#whi{
+    color:lightsalmon;
+
+}
