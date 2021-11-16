@@ -1,20 +1,28 @@
 body{
+    background-image: url("image/les-saisons-dates-des-saisons.jpeg");
+    background-size: 50%;
     text-align:center;
     margin: 5% 0;
 }
-
+        /*tableau(Agenda)*/
 table {
+    border:black 2px solid;
     margin: 1% auto;
     font-weight: bold;
+    border-collapse: collapse;
 }
 
 th {
     background-color: #2b78dd;
     color: white;
+    border:black 2px solid;
 }
+
 
 td {
     cursor: pointer;
+    border:black 2px solid;
+    background-color: lightyellow;
 }
 
 td:hover {
@@ -22,7 +30,63 @@ td:hover {
     border-radius: 5px;
 }
 
+
 th, td {
     padding: 15px;
     text-align: left;
+}
+
+.t1{                                    /*Le Formulaire(le titre)*/
+    background-color: #2b78dd;
+    color: white;
+    margin:10px 455px 10px 455px;
+    border:solid 1px black;
+    opacity:0,8;
+}
+
+.c1{                                /*contours des coordonnées(formulaire)*/
+    margin:5px 350px 5px 355px;
+    border:black 1px Solid;
+    background-color: lightyellow;
+    opacity: 0.9;
+    padding: 15px 15px 15px 15px;
+}
+
+
+.c2{                                /*contours des questions(formulaire)*/
+    border:black 1px Solid;
+    background-color:lightyellow;
+
+}
+
+.text1{
+    font-weight: bolder;
+
+
+}
+.t2                                 /*liens vers le formulaire(Angenda)*/
+
+    {  
+    
+    color:black ;
+    border: 1px solid black;
+    background-color:lightgray;
+    margin:25px 450px 25px 450px;
+    opacity: 0.8;
+}
+
+#tid{                               /*Octobre(Agenda)*/
+    color:black ;
+    border: 1px solid black;
+    background-color:lightgray;
+    margin:25px 500px 25px 500px;
+    opacity: 0.8;
+
+}
+
+
+p               /*texte(formulaire)*/
+    {
+
+    font-family: 'Josefin Sans', sans-serif;
 }

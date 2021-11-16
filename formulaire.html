@@ -1,32 +1,63 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="agenda.css">
 
-    <title>formulaire</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
 
-    <body>
+    <title>Le Formulaire</title>
+</head>
+<body>
+          
+    <h1 class="t1">Le Formulaire:</h1>
+    <p class="text1">Voici un formulaire de contact.</br>
+        Pour plus d'information,n'hésitez pas a nous contacter.
+    </p>
 
-        <form method="post" action="traitement.php">
-            <label for="titre">Titre</label>
-            <input type="text" name="titre">
+    <form method="post" action="traitement.php">
 
-            <label for="description">Description</label>
-            <input type="text" name="description">
+    
+        <fieldset class="c1">
+            <legend>Vos Coordonnées</legend>
+            
+        <label for="Votre-nom" >Votre nom</label>
+        <input type="text" id="votre-nom" placeholder="votre-nom"/></br>
 
-            <label for="categorie">Categorie</label>
-            <input type="text" name="categorie">
+        <label for="Prénom">Votre prénom</label>
+        <input type="text" id="Prénom" placeholder="Prénom"/></br>
 
-            <label for="date">Date</label>
-            <input type="date" name="date">
+        <label for="Adresse">Votre adresse</label>
+        <input type="text" id="Adresse" placeholder="Adresse"></br>
 
-            <button type="submit">Valider</button>
+        <label for="Number">Votre numéro</label>
+        <input type="tel" id="number" placeholder="06xxxxxxxx"></br>
+    </fieldset>
+        <p>
+            <label for="choix" class="text1">Que recherchez-vous?</label></br>
+            <select name="choix" id="choix">
 
-        </form>
-         
+                    <option value="evenement">Evenement-spécial</opêtion>
+                    <option value="Férié">Jour-férié</option>
+                    <option value="Vacances">Vacances</option>
+                    <option value="Fête">Fête</option>
+            </select>
 
-    </body>
+        </p>
+      
+
+        <p class="text1">Si vous avez d'autres questions à poser,c'est ici:</p>
+        <br>
+        <textarea name="autres-questions" id="autres-questions" cols="70" rows="7" class="c2"></textarea></br>
+
+        <input type="submit" value="Envoyer">
+       
+       
+   
+
+</body>
 </html>
